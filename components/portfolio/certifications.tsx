@@ -2,25 +2,25 @@ import { Award, Trophy, Users } from "lucide-react";
 
 const certifications = [
   {
-    title: "SnowHack Hackathon",
+    title: "SnowHack Hackathon - Top 4",
     description:
-      "Secured Top 4 position at Chameli Devi Group of Institutions",
+      "Built a working prototype under time constraints, demonstrating problem-solving and rapid development skills",
     icon: Trophy,
     type: "Achievement",
   },
   {
-    title: "Generation AI Workshop",
+    title: "Gen AI Workshop - GDSC",
     description:
-      "Google Developer Group (GDSC) workshop focused on generative AI tools and real-world applications",
+      "Hands-on workshop covering AI integration in applications, prompt engineering, and API usage",
     icon: Award,
     type: "Workshop",
   },
   {
-    title: "Science Communication Seminar",
+    title: "Tech Seminar - IIT Indore",
     description:
-      "IIT Indore seminar on innovative strategies for science education and engagement",
+      "Exposure to industry practices and emerging technologies in software development",
     icon: Users,
-    type: "Seminar",
+    type: "Learning",
   },
 ];
 

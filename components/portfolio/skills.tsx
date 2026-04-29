@@ -2,24 +2,24 @@ import { Badge } from "@/components/ui/badge";
 
 const skillCategories = [
   {
-    title: "Languages",
-    skills: ["Java", "SQL", "HTML", "CSS"],
-  },
-  {
-    title: "Backend Technologies",
-    skills: ["Spring Core", "Spring Boot", "Servlets", "JSP", "JDBC", "REST APIs"],
+    title: "Backend",
+    skills: ["Java", "Servlets", "JSP", "JDBC", "Spring Core", "REST APIs"],
   },
   {
     title: "Database",
-    skills: ["MySQL", "Database Design", "Query Optimization"],
+    skills: ["MySQL", "SQL Queries", "Database Design", "Joins & Indexing"],
   },
   {
-    title: "Tools & Platforms",
-    skills: ["Git", "GitHub", "VS Code", "Eclipse", "NetBeans", "Postman", "Maven"],
+    title: "Frontend",
+    skills: ["HTML", "CSS", "JavaScript Basics"],
   },
   {
-    title: "Concepts",
-    skills: ["OOP", "MVC Architecture", "CRUD Operations", "Exception Handling", "Data Validation"],
+    title: "Tools",
+    skills: ["Git", "GitHub", "Eclipse", "VS Code", "Postman", "Maven"],
+  },
+  {
+    title: "Core Concepts",
+    skills: ["OOP", "MVC Architecture", "CRUD Operations", "Exception Handling", "Input Validation"],
   },
 ];
 

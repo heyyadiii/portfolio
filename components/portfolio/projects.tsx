@@ -8,37 +8,37 @@ const projects = [
   {
     title: "Student Management System",
     description:
-      "A comprehensive web-based application for managing student records with full CRUD functionality. The system digitizes manual record management processes, ensuring data accuracy through robust validation and exception handling.",
+      "Web application for managing student records with complete CRUD operations and MySQL persistence.",
     problem:
-      "Manual student record management was time-consuming and error-prone.",
+      "Educational institutions often rely on spreadsheets or paper records, leading to data inconsistency and slow lookups.",
     solution:
-      "Built a digital system that reduced manual work by 70% with structured data operations for efficient storage and retrieval.",
+      "Built a servlet-based system with form validation, exception handling, and optimized SQL queries. Records are stored in normalized MySQL tables with proper indexing.",
     features: [
-      "Full CRUD operations for student records",
-      "Input validation and exception handling",
-      "Efficient data storage and retrieval",
-      "Clean and intuitive user interface",
+      "Add, view, update, delete student records via web forms",
+      "Server-side validation with meaningful error messages",
+      "MySQL database with foreign key constraints",
+      "Search and filter by name, ID, or department",
     ],
-    tech: ["Java", "Servlets", "JDBC", "MySQL"],
-    github: "#",
+    tech: ["Java", "Servlets", "JDBC", "MySQL", "HTML", "CSS"],
+    github: "https://github.com/heyyadiii",
     live: null,
   },
   {
-    title: "Service Provider Web Application",
+    title: "Service Provider Platform",
     description:
-      "A platform connecting users with service providers, featuring user registration, service listings, and booking management. Includes an admin panel for complete system oversight.",
+      "Multi-role web application connecting users with local service providers, with booking management and admin oversight.",
     problem:
-      "No centralized platform for service discovery and booking in local area.",
+      "Users had no way to discover, compare, and book local services online. Providers had no digital presence.",
     solution:
-      "Created a multi-user platform with role-based access for users, providers, and admins.",
+      "Developed a JSP-based platform with three user roles (customer, provider, admin). Implemented session management, role-based access control, and a booking workflow with status tracking.",
     features: [
-      "User and service provider registration",
-      "Service listings with search functionality",
-      "Booking management system",
-      "Admin panel for user and service management",
+      "User registration with email validation",
+      "Service listings with category-based search",
+      "Booking system with confirmation workflow",
+      "Admin dashboard for user/service management",
     ],
-    tech: ["Java", "JSP", "Servlets", "MySQL", "HTML", "CSS"],
-    github: "#",
+    tech: ["Java", "JSP", "Servlets", "MySQL", "JDBC", "HTML", "CSS"],
+    github: "https://github.com/heyyadiii",
     live: null,
   },
 ];

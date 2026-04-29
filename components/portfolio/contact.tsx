@@ -23,11 +23,11 @@ export function Contact() {
         <div className="grid md:grid-cols-2 gap-12">
           <div>
             <h3 className="text-3xl font-bold text-foreground mb-4">
-              {"Let's work together"}
+              {"Open to Opportunities"}
             </h3>
             <p className="text-muted-foreground mb-6">
-              I&apos;m currently looking for new opportunities. Whether you have
-              a project in mind or just want to connect, feel free to reach out!
+              Actively seeking entry-level Java Developer roles in product-based companies. 
+              If you&apos;re hiring or know someone who is, I&apos;d appreciate a conversation.
             </p>
 
             <div className="space-y-4">

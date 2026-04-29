@@ -11,18 +11,22 @@ export function Hero() {
           <span className="text-sm">Indore, India</span>
         </div>
 
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-4">
           <span className="text-foreground">Aditya Sisodiya</span>
+          <span className="text-primary">.</span>
         </h1>
 
-        <h2 className="text-xl md:text-2xl lg:text-3xl text-primary font-medium mb-6">
-          Java Backend Developer
+        <h2 className="text-xl md:text-2xl lg:text-3xl text-primary font-medium mb-2">
+          Java Developer
         </h2>
 
-        <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-8">
-          Building scalable backend systems with Java, Spring Boot, and MySQL.
-          Focused on clean architecture, efficient database design, and
-          maintainable code that solves real problems.
+        <p className="text-base md:text-lg text-muted-foreground mb-6">
+          Building backend systems that handle real data and solve real problems.
+        </p>
+
+        <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mb-8">
+          I build database-driven web applications using Java, Servlets, JSP, and MySQL.
+          My focus: clean code, structured data operations, and backend logic that works reliably in production.
         </p>
 
         <div className="flex flex-wrap gap-4 mb-12">

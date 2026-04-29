@@ -11,14 +11,10 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12">
           <div>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              I&apos;m a Backend Developer specializing in Java ecosystem.
-              Currently pursuing B.Tech in Computer Science at Chameli Devi
-              Group of Institutions, Indore.
+              Java Developer with hands-on experience building web applications using Servlets, JSP, JDBC, and MySQL. I write backend logic that processes data correctly and handles edge cases.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My focus is on building robust, database-driven applications with
-              clean architecture. I enjoy solving complex problems through
-              efficient backend logic and optimized database design.
+              Currently in my final year of B.Tech (CSE), actively building projects that demonstrate CRUD operations, database design, and clean MVC architecture. Looking for entry-level roles where I can contribute to real product development.
             </p>
           </div>
 
